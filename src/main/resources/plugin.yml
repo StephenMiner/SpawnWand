@@ -1,0 +1,7 @@
+name: Spawnwand
+version: 1.0
+main: me.stephenminer.spawnwand.Spawnwand
+api-version: 1.17
+authors: [ Meep ]
+commands:
+  wand:

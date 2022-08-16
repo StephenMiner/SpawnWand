@@ -1,0 +1,14 @@
+wand:
+  wait-time: 200
+  waiting-message: "&6You will teleport in [seconds] seconds!"
+  teleport-message: "&6You have been teleported to spawn in [world]"
+  item:
+    material: BLAZE_ROD
+    name: "&6Example Name"
+    lore:
+      - "&2Example lore"
+      - "&32nd Example lore"
+  recipe:
+    - "DIAMOND, ,DIRT"
+    - " , , "
+    - "IRON_INGOT, , "
