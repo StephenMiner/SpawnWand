@@ -79,6 +79,7 @@ public class PlayerEvents implements Listener {
                                     .replace("[world]", sendTo.getWorld().getName());
                             player.teleport(sendTo);
                             player.sendMessage(ChatColor.translateAlternateColorCodes('&',msg));
+                            player.getInventory().remove(item);
                             this.cancel();
                             return;
                         }
